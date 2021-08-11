@@ -69,3 +69,21 @@ body {
 .content > div:nth-child(4) {
   background: linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%);
 }
+
+@media screen and (max-width: 480px) {
+  body {
+    height: auto;
+    width: auto;
+    margin: 1.5em;
+    overflow: scroll;
+  }
+  .homepage {
+  }
+  .draggable-main {
+    margin: 20rem;
+    padding: 20rem;
+  }
+  .content {
+    margin: 0 auto;
+  }
+}
